@@ -1,6 +1,6 @@
-package Aula1;
+package AulasJava.Matheus.Aula1;
 // os nomes das Classes sempre vao ter as primeiras letras em Maiúsculo.
-public class MinhaClasse {
+public class ClassesEmJava {
 public static void main (String [] args){
     
     System.out.print ("Hello World!\n"); // ( \n ) dentro da string para quebrar a linha.
@@ -9,14 +9,14 @@ public static void main (String [] args){
     // Tipo nomeBemDefinido = Atribuição ( Opicional em alguns casos )
     // Exemplos:
     // TIPO nomeVariavel = Valor/Atribuição
-    String meuNome = "Matheus";
-    int idade = 27;
-    double minhaAltura = 1.70;
-    boolean verdadeira = true; // true or false
-    System.out.print("Meu Nome: "+ meuNome + "\n" +
-    "Minha Idade: "+ idade + "\n" + 
-    "Minha Altura: " + minhaAltura + "\n" +
-    "Verdade?: " + verdadeira + "\n");
+        String meuNome = "Matheus";
+        int idade = 27;
+        double minhaAltura = 1.70;
+        boolean verdadeira = true; // true or false
+        System.out.print("Meu Nome: "+ meuNome + "\n" +
+        "Minha Idade: "+ idade + "\n" + 
+        "Minha Altura: " + minhaAltura + "\n" +
+        "Verdade?: " + verdadeira + "\n");
 
 
     // se a Variavel vem Totalmente em maiúsculo ela ja implicita que é de valor imutavel.

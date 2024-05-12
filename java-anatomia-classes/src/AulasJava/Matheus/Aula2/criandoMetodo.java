@@ -1,6 +1,6 @@
-package Aula2;
+package AulasJava.Matheus.Aula2;
 
-public class MinhaClasse2 {
+public class criandoMetodo {
 
 public static void main (String [] args){
 
