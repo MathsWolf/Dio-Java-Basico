@@ -1,4 +1,4 @@
-package AulasJava.Matheus.Aula2;
+package AulasJava.Matheus.Aula1;
 
 public class criandoMetodo {
 
