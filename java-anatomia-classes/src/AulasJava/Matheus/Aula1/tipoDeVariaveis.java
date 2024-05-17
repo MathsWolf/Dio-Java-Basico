@@ -11,11 +11,9 @@ public class tipoDeVariaveis {
         float pi = 3.14F; // também finaliza com F ou f para identificação
         double salario = 1275.33; 
 
-        System.out.println(meuNome);
+        System.out.println(meuNome + " " + idade + " " + ano + "\n" + cep + "\n" + cpf + "\n" + pi + "\n" + salario);
 
 
     }
-    
-    
 }
 
