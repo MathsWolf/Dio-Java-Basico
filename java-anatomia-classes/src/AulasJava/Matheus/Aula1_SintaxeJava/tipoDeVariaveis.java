@@ -1,4 +1,4 @@
-package AulasJava.Matheus.Aula1;
+package AulasJava.Matheus.Aula1_SintaxeJava;
 
 public class tipoDeVariaveis {
     public static void main(String[] args) {

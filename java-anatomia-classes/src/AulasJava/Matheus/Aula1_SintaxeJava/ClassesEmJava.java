@@ -1,4 +1,4 @@
-package AulasJava.Matheus.Aula1;
+package AulasJava.Matheus.Aula1_SintaxeJava;
 // os nomes das Classes sempre vao ter as primeiras letras em Maiúsculo.
 public class ClassesEmJava {
 public static void main (String [] args){

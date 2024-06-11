@@ -1,4 +1,4 @@
-package AulasJava.Matheus.Aula2;
+package AulasJava.Matheus.Aula1_SintaxeJava;
 
 public class operadoresLogicos {
     public static void main(String[] args){
