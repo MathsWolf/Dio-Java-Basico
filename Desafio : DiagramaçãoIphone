@@ -1,0 +1,63 @@
+classDiagram
+    class Iphone {
+    }
+    
+    class Reprodutor {
+        + tocar()
+        + pausar()
+        + selecionarMusica(musica: "nome da musica")
+        + aumentarVolume()
+        + diminuirVolume()
+
+    }
+    
+    class Musica {
+        - titulo: "nome da musica"      
+    }
+    
+    Iphone -- Reprodutor
+    Reprodutor "" -- "" Musica : executa
+    class Albums {
+        - Exibir Albums: Lista de Musicas
+    }
+    Reprodutor "" -- "" Albums : Exibir
+
+    class AparelhoTelefonico {
+        + exibirContatos ()
+        + ligar ()
+        + atender()
+        + iniciarCorreioVoz()
+    }
+    
+    class Chamada {
+        - numero: "Numero do Contato"
+    }
+    
+    Iphone -- AparelhoTelefonico
+    AparelhoTelefonico "" -- "" Chamada : realiza
+     
+    class Navegador {
+        + abrirGoogleMaps()
+        + exibirPagina()
+        + adicionarNovaAba()
+        + atualizarPagina()
+    }
+    
+    class PaginaWeb {
+        - url: "www.google.com"
+    }
+    
+    Iphone -- Navegador
+    Navegador "" -- "" PaginaWeb : exibe
+
+    class GoogleMaps {
+        - executando: Mapa
+    }
+    
+    Navegador "" -- "" GoogleMaps : executa
+    
+    class Contatos{
+        - Exibir: Lista de Contatos
+    }
+    
+    AparelhoTelefonico "" -- "" Contatos : Exibir
