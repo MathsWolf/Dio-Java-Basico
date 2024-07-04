@@ -1,63 +1,29 @@
-classDiagram
-    class Iphone {
-    }
-    
-    class Reprodutor {
-        + tocar()
-        + pausar()
-        + selecionarMusica(musica: "nome da musica")
-        + aumentarVolume()
-        + diminuirVolume()
+### Objetivo
+1. Criar um diagrama UML que represente as funcionalidades descritas acima.
+2. Implementar as classes e interfaces correspondentes em Java (Opcional).
 
+### Exemplo de Diagrama UML (Mermaid)
+```mermaid
+classDiagram
+    class ReprodutorMusical {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
-    
-    class Musica {
-        - titulo: "nome da musica"      
-    }
-    
-    Iphone -- Reprodutor
-    Reprodutor "" -- "" Musica : executa
-    class Albums {
-        - Exibir Albums: Lista de Musicas
-    }
-    Reprodutor "" -- "" Albums : Exibir
 
     class AparelhoTelefonico {
-        + exibirContatos ()
-        + ligar ()
-        + atender()
-        + iniciarCorreioVoz()
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
-    
-    class Chamada {
-        - numero: "Numero do Contato"
-    }
-    
-    Iphone -- AparelhoTelefonico
-    AparelhoTelefonico "" -- "" Chamada : realiza
-     
-    class Navegador {
-        + abrirGoogleMaps()
-        + exibirPagina()
-        + adicionarNovaAba()
-        + atualizarPagina()
-    }
-    
-    class PaginaWeb {
-        - url: "www.google.com"
-    }
-    
-    Iphone -- Navegador
-    Navegador "" -- "" PaginaWeb : exibe
 
-    class GoogleMaps {
-        - executando: Mapa
+    class NavegadorInternet {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
-    
-    Navegador "" -- "" GoogleMaps : executa
-    
-    class Contatos{
-        - Exibir: Lista de Contatos
+
+    class iPhone {
     }
-    
-    AparelhoTelefonico "" -- "" Contatos : Exibir
+
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
+```
